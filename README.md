@@ -7,3 +7,6 @@ Founders and Coders application portfolio
 
 # GIT test 2
 
+@@@@ I will  document changes here as part of my workflow @@@@
+
+01. Adding initial version of the website I made during the FAC meetup in October.
