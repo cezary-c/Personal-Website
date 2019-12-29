@@ -6,7 +6,7 @@
     background-color: rgb(176, 197, 179);
     color: #442b9c;
     
-    
+    font-family: 'Anton', serif;
 }
 
 #container {
@@ -33,7 +33,7 @@
     text-align: center;
     height: 50%;
 
-    font-family: 'Anton', serif;
+    
 
 }
 
@@ -41,6 +41,8 @@
      padding: 10px;
      text-align: center;
      background-color: seashell;
+
+     font-family: 'Playfair Display', serif;
      
 }
 
