@@ -5,6 +5,8 @@
  body {
     background-color: rgb(176, 197, 179);
     color: #442b9c;
+    
+    
 }
 
 #container {
@@ -14,6 +16,7 @@
     margin-right: auto;
 
     text-align: center;
+    
 }
 
 /* setting values to auto or % to make it responsive */
@@ -28,14 +31,17 @@
 
     background-color: powderblue;
     text-align: center;
-    list-style-type: none;
     height: 50%;
+
+    font-family: 'Anton', serif;
+
 }
 
 #main {
      padding: 10px;
      text-align: center;
      background-color: seashell;
+     
 }
 
 #pic-slider {
@@ -78,11 +84,9 @@
 
 #footer {
 
-height: 50px;
-background-color: rgb(233, 223, 215);
 
+
+    height: 100px;
+    background-color: rgb(233, 223, 215);
+    
 }
-
-
-
-
