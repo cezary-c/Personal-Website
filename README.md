@@ -7,3 +7,10 @@ Founders and Coders application portfolio
 
 01. Adding initial version of the website I made during the FAC meetup in October.
 02. The website  is published at: https://cezary-c.github.io/Personal-Website/
+03. Creating HTML structure
+    -Header
+    -Navigation bar
+    -About me section
+    -Picture Slider
+    -Footer
+04. Styling with CSS

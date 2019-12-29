@@ -1,10 +1,88 @@
 .title {
     font-size: 65px;
-
 }
 
  body {
-    background-color: hsl(204, 53%, 73%);
-color: #26429c;
+    background-color: rgb(176, 197, 179);
+    color: #442b9c;
 }
+
+#container {
+    background-color: whitesmoke;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+/* setting values to auto or % to make it responsive */
+
+#header {
+    background-color: paleturquoise;
+    text-align: center;     
+    height: 100px;
+}
+
+#nav-bar {
+
+    background-color: powderblue;
+    text-align: center;
+    list-style-type: none;
+    height: 50%;
+}
+
+#main {
+     padding: 10px;
+     text-align: center;
+     background-color: seashell;
+}
+
+#pic-slider {
+   
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+
+}
+
+.pic-center {
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+    height: 100%
+
+}
+
+
+/*
+    top: 10px;
+    bottom: 10px;
+
+    height: 100%;
+
+    padding-left: 50%;
+    padding-right: 50%;
+
+    flex-direction: column;
+    justify-content: center;
+*/
+    
+
+#footer {
+
+height: 50px;
+background-color: rgb(233, 223, 215);
+
+}
+
+
+
 
