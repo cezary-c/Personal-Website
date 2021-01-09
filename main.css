@@ -7,6 +7,7 @@
     color: #442b9c;
     
     font-family: 'Anton', serif;
+    
 }
 
 #container {
@@ -16,6 +17,7 @@
     margin-right: auto;
 
     text-align: center;
+    
     
 }
 
@@ -48,24 +50,42 @@
 
 #pic-slider {
    
-    
-    background-size: cover;
+     /* line them up horizontally */
+  display: flex;
+
+  /* allow for scrolling */
+  overflow-x: auto;
+
+  /* make it smooth on iOS */
+  -webkit-overflow-scrolling: touch;
+
+   /* each slide snaps into place */
+   scroll-snap-points-x: repeat(300px);
+   scroll-snap-type: mandatory;
+
+   /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 100%;
     width: 100%;
 
+    display: flex; */
 }
 
-.pic-center {
+/* change height on pic slider  */
 
+.pic-center > div {
 
-    display: block;
+    flex-shrink: 0;
+    width: 50%;
+    height: 50%;
+
+    /* display: block;
     margin-left: auto;
     margin-right: auto;
 
     width: 90%;
-    height: 100%
+    height: 100%  */s
 
 }
 
@@ -91,4 +111,10 @@
     height: 100px;
     background-color: rgb(233, 223, 215);
     
+}
+  
+
+.pic-center {
+
+   
 }
